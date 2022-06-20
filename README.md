@@ -3,4 +3,4 @@
 | DNS厂商 | DoT描述文件 | DoH描述文件 |
 | ----- | ------- | ------- |
 | 阿里云 AliDNS | [下载地址](https://github.com/riccoyu/apple-dot-doh/blob/main/signed/alidns-dot.mobileconfig?raw=true) | [下载地址](https://github.com/riccoyu/apple-dot-doh/blob/main/signed/alidns-doh.mobileconfig?raw=true) |
-| 腾讯云 DNSPod | 下载地址 | 下载地址 |
+| 腾讯云 DNSPod | [下载地址](https://github.com/riccoyu/apple-dot-doh/blob/main/signed/dnspod-dot.mobileconfig?raw=true) | [下载地址](https://github.com/riccoyu/apple-dot-doh/blob/main/signed/dnspod-doh.mobileconfig?raw=true) |
