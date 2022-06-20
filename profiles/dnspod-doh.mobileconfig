@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>注意：仅iOS 14及以上版本或者macOS 11及以上版本支持DNS DoH的配置</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.12.12.12</string>
+					<string>120.53.53.53</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://doh.pub/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use DNSPod Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>DNSPod over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.9521F99E-FC04-4A9D-B81A-F8A246EE1D4A</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>9521F99E-FC04-4A9D-B81A-F8A246EE1D4A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>配置腾讯云的DoH公共DNS，需要iOS 14+或者macOS 11+</string>
+	<key>PayloadDisplayName</key>
+	<string>DNSPod Public DoH</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.riccoyu.apple-doh-dnspod</string>
+	<key>PayloadOrganization</key>
+	<string>com.github.riccoyu</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6BB1EEF2-2A30-4301-8BEA-D2CF0EC58061</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
