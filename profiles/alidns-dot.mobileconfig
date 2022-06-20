@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>注意：仅iOS 14及以上版本或者macOS 11及以上版本支持DNS DoT的配置</string>
+	</dict>
+	<key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>223.5.5.5</string>
+                    <string>223.6.6.6</string>
+                    <string>2400:3200::1</string>
+                    <string>2400:3200:baba::1</string>
+                </array>
+                <key>ServerName</key>
+                <string>dns.alidns.com</string>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures device to use AliDNS Encrypted DNS over TLS</string>
+            <key>PayloadDisplayName</key>
+            <string>AliDNS over TLS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.319DCDE2-ED28-4F7D-8B81-CAC03768C400</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>FAC1A50E-2912-49DC-AFA3-A70AF4861213</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ProhibitDisablement</key>
+            <false/>
+        </dict>
+    </array>
+	<key>PayloadDescription</key>
+	<string>配置阿里云的DoT公共DNS，需要iOS 14+或者macOS 11+。通常来说，DoT的流量更容易被识别和过滤</string>
+	<key>PayloadDisplayName</key>
+	<string>AliDNS Public DoT</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.riccoyu.apple-dot-alidns</string>
+	<key>PayloadOrganization</key>
+	<string>com.github.riccoyu</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>59605F0D-FF4B-4B3F-B105-0F775BBDA3D1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
